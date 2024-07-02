@@ -1,0 +1,51 @@
+[
+    {
+        "id": 1,
+        "name":"Brinjal ",
+        "price": 250,
+        "image": "image/1.png"
+    },
+    {
+        "id": 2,
+        "name":" Cabbage",
+        "price": 200,
+        "image": "image/cab.png"
+    },
+    {
+        "id": 3,
+        "name":" Cauliflower",
+        "price": 300,
+        "image": "image/2972.png"
+    },
+    {
+        "id": 4,
+        "name":" Bok choy ",
+        "price": 120,
+        "image": "image/bokchoy.png"
+    },
+    {
+        "id": 5,
+        "name":" Cucumber",
+        "price": 150,
+        "image": "image/cucumber.png"
+    },
+    {
+        "id": 6,
+        "name":" Jackfruit",
+        "price": 650,
+        "image": "image/jack.png"
+    },
+    {
+        "id": 7,
+        "name":" Oakra(Lady finger)",
+        "price": 95,
+        "image": "image/okra.png"
+    },
+    {
+        "id": 8,
+        "name":" Radish",
+        "price": 75,
+        "image": "image/radish.png"
+    }
+
+]

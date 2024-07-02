@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- Linking jQuery and Toastr CSS and JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/css/toastr.min.css">
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/js/toastr.min.js"></script>
+<link rel="stylesheet" href="/Frontend/style/reg.css">
+<title>Registration Form</title>
+</head>
+<body>
+<div class="logo">
+  <h1>Khet Sewa</h1>
+</div>
+<div class="container">
+  <h2>Registration Form</h2>
+  <form id="registrationForm" method="POST">
+    <label for="username">Username:</label>
+    <input type="text"  id="username" name="username" required>
+    
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+    
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password" required>
+    
+    <input type="submit" value="Register" id="btn">
+  </form>
+
+  <!-- Adding the login button -->
+  <div class="signup-link">
+    <a href="./Login.html">Already have an account? Login here.</a>
+  </div>
+</div>
+
+<!-- Include your JavaScript file -->
+<script src="../register.js"></script>
+
+</body>
+</html>

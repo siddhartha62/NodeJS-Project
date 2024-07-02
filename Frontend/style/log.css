@@ -1,0 +1,267 @@
+/* * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.navbar input[type="checkbox"],
+.navbar .hamburger-lines {
+    display: none;
+}
+.navbar {
+    width: 100%;
+    position: fixed;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    text-decoration: none;
+                
+}
+.navbar-container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+   
+}
+.logo {
+    cursor: pointer;
+    color:  rgb(250, 252, 250);
+    letter-spacing: -1px;
+    font-size: 30px;
+    font-family: sans-serif;
+    margin-left: 5rem;
+   margin-top: .5rem;
+}
+.menu-items {
+    display: flex;
+    align-items: center;
+}
+.menu-items li {
+    margin: 0 0.5rem;
+    padding: 0 0.5rem;
+    border-radius: 20px;
+  
+}
+.menu-items li:hover {
+    transform: scale(1.1);
+    background-color:teal;
+    transition: all 300ms ease-in-out;
+}
+.menu-items li a {
+    font-size: 20px;
+    font-weight: 400;
+    color: #fff;
+    text-decoration: none;
+   
+}
+.menu-items li a:hover {
+    color: lightyellow;
+    transition: color 300ms ease-in-out;
+}
+.menu-items li a.active{
+    color:rgb(116, 139, 139);
+    text-shadow: #171717; 
+    text-decoration: underline; 
+}
+.container{
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(rgba(0,0,58,0.8), rgba(0.0.58,0.8)), url(/images/Gheorghita_fruitVeg_adobe_hero_700x530px.jpg);
+    background-position: center;
+    background-size: cover;
+   
+
+}
+.form-box{
+    width: 90%;
+    max-width: 450px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+    background: transparent;
+    padding: 50px 60px 70px;
+    text-align: center;
+
+}
+.form-box h1{
+    font-size: 30px;
+    margin-bottom: 60px;
+    color: teal ;
+    position: relative;
+}
+.form-box h1::after {
+    content: '';
+    width: 30px;
+    height: 4px;
+    border-radius: 3px;
+    background: brown;
+    position: absolute;
+    bottom: -12px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.input-field{
+    background: powderblue;
+    margin: 15px 0;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    max-height: 65px;
+    transition: max-height 0.5s;
+    overflow: hidden;
+}
+input{
+    width: 100%;
+    background: transparent;
+    border: 0;
+    outline: 0;
+    padding: 18px 15px;
+}
+.input-field{
+    margin-left: 15px;
+    
+}
+form p{
+    text-align: center;
+    font-size: 14px;
+    color: darkslateblue;
+}
+form p a{
+    text-decoration: none;
+    color: powderblue;
+}
+.btn-field{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.btn-field button{
+    flex-basis: 48%;
+    background: teal;
+    color: aquamarine;
+    height: 40px;
+    border-radius: 20px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    transition: background 1s;
+}
+.input-group{
+    height: 280px;
+}
+.btn-field button.disable{
+    background: #d4cdcd;
+    color: #555;
+}
+/* Footer styling */
+/* footer {
+    background-color: black;
+    color: #fff;
+    padding: 30px 0;
+    text-align: center;
+}
+
+.col {
+    padding: 20px;
+    margin: 20px;
+    color: #fff;
+}
+
+.col img {
+    width: 100px;
+}
+
+.col h4 {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.col p {
+    margin-bottom: 10px;
+}
+
+.follow {
+    padding: 20px;
+    margin: 20px;
+    color: #fff;
+}
+
+.icon img {
+    width: 30px;
+    margin-right: 10px;
+} */ 
+
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(rgba(152, 226, 168, 0.8), rgba(0.0.168,0.8));
+    background-size: contain;
+    
+}
+.logo{
+    cursor: pointer;
+    color:  rgb(250, 252, 250);
+    letter-spacing: -1px;
+    font-size: 20px;
+    font-family: sans-serif;
+    margin-left: 5rem;
+    margin-top: .5rem;
+}
+.container {
+    width: 300px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background: linear-gradient(rgba(152, 226, 168, 0.8), rgba(0.0.168,0.8)), url(/Frontend/images/Gheorghita_fruitVeg_adobe_hero_700x530px.jpg);
+    align-items: center;
+    width: 500px;
+    height: 400px;
+    margin-top: 150px;
+    padding-bottom: 115px;
+    
+}
+.container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: teal;
+    padding: 20px;
+}
+.container input[type="email"],
+.container input[type="password"],
+.container input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 10px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.container input[type="submit"] {
+    background-color: teal; /* Changed */
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.container input[type="submit"]:hover {
+    background-color: #008080; /* Changed */
+}
+.signup-link {
+    text-align: center;
+    margin-top: 15px;
+}
+.signup-link a {
+    color: teal; /* Changed */
+    text-decoration: none;
+}
+.signup-link a:hover {
+    text-decoration: underline;
+    color: #008080; /* Changed */
+}

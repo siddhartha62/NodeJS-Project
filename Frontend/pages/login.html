@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     
+    <link rel="stylesheet" href="/Frontend/style/log.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/css/toastr.min.css">
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/js/toastr.min.js"></script>
+    <title>Login Form</title>
+    
+</head>
+<body>
+    <div class="logo">
+        <h1>Khet Sewa</h1>
+      </div>
+<div class="container">
+    <h2>Login Form</h2>
+    <form method="POST">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required><br>
+
+        <input type="submit" value="Login" id="btn">
+    </form>
+    <div class="signup-link">
+        <a href="./Register.html">Don't have an account? Register here.</a>
+    </div>
+</div>
+
+<script src="../login.js"></script>
+</body>
+</html>
